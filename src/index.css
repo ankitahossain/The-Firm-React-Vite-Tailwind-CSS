@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-nunito: "Roboto", serif;
+  --font-lora: "Lora", serif;
+  --color-yellow: #FACA10;
+
+  --color-black: #1E1E1E;
+  --color-dark_grey: :#F2F2F2;
+  --color-dark-grey: :#FBFBFB;
+  --color-white: #FFFFFF;
+}
+
+
+
+.container {
+  max-width: 1177px;
+  margin: 0 auto;
+}
+
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+
+  ul,
+  li,
+  ol {
+    @apply list-none
+  }
+
+  img {
+    @apply align-middle
+  }
+
+  a {
+    @apply inline-block no-underline;
+  }
+}
+
+@layer components {
+  .menu {
+    position: relative;
+  }
+
+  .menu::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background-color: rgb(250, 202, 16);
+    height: 2px;
+    transition: all linear .2s;
+
+  }
+
+  .menu:hover::after {
+
+    width: 100%;
+  }
+}
