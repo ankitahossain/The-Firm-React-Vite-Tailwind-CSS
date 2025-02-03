@@ -3,7 +3,7 @@ import Button from './Button'
 import banner from "../assets/banner (2).png"
 const Banner = () => {
   return (
-    <div className="bg-[url(src/assets/bannerimage.png)] bg-cover z-10 bg-center bg-no-repeat relative after:top-0 after:left-0 after:w-full after:h-full after:content-[''] after:bg-grey after:absolute after:-z-10">
+    <div className="bg-[url(src/assets/bannerimage.png)] bg-cover bg-center bg-no-repeat bgBanner ">
 
       <div className='container'>
         <div className='flex items-center justify-between'>
@@ -14,7 +14,7 @@ const Banner = () => {
               and typesetting industry. Lorem Ipsum has been
               the industry's standard dummy.</p>
             <Button btnContent="Get in touch"
-              btnDesign={"bg-yellow font-bold font-nunito text-white text-[20px] p-3 rounded-lg mt-8 cursor-pointer p-x-[21px] py-4 hover:bg-red-300 hover:text-bold transition"} />
+              btnDesign={"bg-yellow font-bold font-nunito text-white text-[20px] p-3 rounded-lg mt-8 cursor-pointer p-x-[21px] py-4 btn"} />
           </div>
           <div className='absolute w-[870px] h-full right-0 object-cover '>
             <picture>

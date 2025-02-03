@@ -32,6 +32,7 @@ const Header = () => {
     ];
 
     return (
+        <div className='container'>
         <div className='mt-[24px]  flex justify-between items-center'>
             <picture>
                 <img src={logo} alt='{logo}' />
@@ -54,8 +55,9 @@ const Header = () => {
             </div>
 
             <Button btnContent="Get in touch"
-                btnDesign={"bg-yellow font-bold font-nunito text-white text-[20px] p-3 rounded-lg"} />
+                btnDesign={"bg-yellow font-bold font-nunito text-white text-[20px] p-3 rounded-lg btn"} />
 
+        </div>
         </div>
 
 

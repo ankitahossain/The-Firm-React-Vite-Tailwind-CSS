@@ -3,19 +3,21 @@ import React from 'react'
 import Header from './component/Header'
 import Banner from './component/Banner'
 import Blog from './component/Blog'
+import Partner from './component/Partner'
+import Heading from './component/Heading'
 
 
 const App = () => {
   return (
 
     <div>
-      <div className='container'>
+      <Heading/>
         <Header />
-      </div>
+      
       <Banner />
-      <div className='container'>
+  
        <Blog />
-      </div>
+      <Partner />
     </div>
   )
 }
