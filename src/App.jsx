@@ -9,8 +9,9 @@ import Frustration from './component/Frustration'
 import Solution from './component/Solution'
 import Chooseus from './component/Chooseus'
 import Research from './component/Research'
-import OurTestimonial from './component/OurTestimonial'
-import TheFirm from './component/TheFirm'
+import Testimonial from './component/Testimonial'
+import Footer from './component/Footer'
+import Touch from './component/Touch'
 
 
 
@@ -30,8 +31,9 @@ const App = () => {
       <Solution/>
       <Chooseus />
       <Research />
-      <OurTestimonial />
-      <TheFirm/>
+      <Testimonial />
+      <Touch/>
+      <Footer/>
       </div>
   )
 }

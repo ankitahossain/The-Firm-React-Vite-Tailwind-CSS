@@ -42,7 +42,7 @@ const Partner = () => {
         }
         style={{
           ...style,
-          display: "block",
+          // display: "block",
           padding: "20px",
           background: "red",
           display: "flex",
@@ -67,7 +67,7 @@ const Partner = () => {
         }
         style={{
           ...style,
-          display: "block",
+          // display: "block",
           background: "black",
           display: "flex",
           justifyContent: "center",

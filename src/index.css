@@ -183,5 +183,23 @@
 
 } 
 
-/* ========== arrow icon research =========== */
+/* ========== arrow icon research =========== */ 
+
+/* =====Get in touch====================================== */
+@layer component{
+
+.ImageCard{
+  position: relative;
+} 
+
+.touchCard{
+  position: absolute;
+  top:50%;
+  left: 12%;
+  z-index: 1;
+}
+
+}
+
+/* =====Get in touch====================================== */
 
