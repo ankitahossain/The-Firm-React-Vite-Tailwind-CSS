@@ -10,23 +10,23 @@ const Header = () => {
             id: 1,
             name: "Home",
         }, {
-            id: 1,
+            id: 2,
             name: "Solutions",
         },
         {
-            id: 1,
+            id: 3,
             name: "Classes",
         },
         {
-            id: 1,
+            id: 4,
             name: "About us",
         },
         {
-            id: 1,
+            id: 5,
             name: "Blog",
         },
         {
-            id: 1,
+            id: 6,
             name: "Contact us",
         },
     ];
